@@ -85,5 +85,5 @@ const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => {
     console.log("Database is connected");
     console.log("Server is running on port: " + PORT);
-    console.log("✅ DELETE routes enabled");
+    // console.log("✅ DELETE routes enabled");
 });
